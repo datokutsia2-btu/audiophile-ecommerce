@@ -67,7 +67,7 @@ body {
   background-color: #141414;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(/assets/first_page_headphones.png);
+    url(assets/first_page_headphones.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -210,7 +210,7 @@ body {
 }
 
 .product-card-zx7 {
-  background-image: url("/assets/speaker_background.png");
+  background-image: url("assets/speaker_background.png");
   background-size: cover;
   background-position: 0 0;
   border-radius: 0.8rem;
@@ -233,7 +233,7 @@ body {
 }
 
 .yx1-image-container {
-  background-image: url("/assets/earphones_background.png");
+  background-image: url("assets/earphones_background.png");
   background-size: cover;
   background-position: center;
   height: 20rem;
@@ -261,7 +261,7 @@ body {
 }
 
 .about-img-container {
-  background-image: url("/assets/man_withheadphones.png");
+  background-image: url("assets/man_withheadphones.png");
   background-size: cover;
   background-position: center;
   height: 30rem;
