@@ -1,0 +1,268 @@
+html {
+  font-size: 10px;
+}
+
+/* ბაზისური პარამეტრები */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: #fafafa;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ჰედერი */
+.main-header {
+  width: 100%;
+  background-color: #101010;
+  color: #ffffff;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.2rem 2.4rem;
+  border-bottom: 0.1rem solid #2c2c2c;
+}
+
+.menu-btn,
+.cart-icon {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.page-title {
+  text-align: center;
+  padding: 3.2rem 0;
+}
+
+.page-title h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+
+/* პროდუქტების ქარდები */
+.products-container {
+  width: 100%;
+  padding: 6.4rem 2.4rem;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 12rem;
+}
+
+.product-image-bg {
+  width: 100%;
+  background-color: #f1f1f1;
+  border-radius: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  margin-bottom: 3.2rem;
+}
+
+.product-image-bg img {
+  max-width: 100%;
+  height: auto;
+}
+
+.new-product {
+  font-size: 1.4rem;
+  color: #d87d4a;
+  letter-spacing: 1rem;
+  margin-bottom: 2.4rem;
+  display: block;
+}
+
+.product-name {
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  line-height: 3.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.product-desc {
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 2.5rem;
+  margin-bottom: 2.4rem;
+  max-width: 50rem;
+}
+
+/* ნარინჯისფერი ღილაკი */
+.btn-orange {
+  display: inline-block;
+  background-color: #d87d4a;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 1.5rem 3rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  border: none;
+  transition: background-color 0.2s ease;
+}
+
+.btn-orange:hover {
+  background-color: #fbaf85;
+}
+
+/* კატეგორიების სექცია (Shop) */
+.categories-section {
+  width: 100%;
+  padding: 0 2.4rem 12rem 2.4rem;
+}
+
+.category-card {
+  background-color: #f1f1f1;
+  border-radius: 0.8rem;
+  text-align: center;
+  padding: 2.2rem 0;
+  margin-bottom: 6.8rem;
+  position: relative;
+}
+
+.cat-thumb {
+  width: 8rem;
+  height: auto;
+  margin-top: -5rem;
+  margin-bottom: 1.5rem;
+}
+
+.category-card h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.shop-link {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+}
+
+.shop-link span {
+  color: #d87d4a;
+  font-weight: 700;
+  margin-left: 0.8rem;
+}
+
+/* ბრენდის საინფორმაციო ბლოკი (კაცი ყურსასმენით) */
+.brand-info-section {
+  padding: 0 2.4rem 12rem 2.4rem;
+  text-align: center;
+}
+
+.brand-image-box img {
+  width: 100%;
+  border-radius: 0.8rem;
+  margin-bottom: 4rem;
+}
+
+.brand-text-box h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  line-height: 3.8rem;
+  margin-bottom: 3.2rem;
+}
+
+.brand-text-box h2 span {
+  color: #d87d4a;
+}
+
+.brand-text-box p {
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 2.5rem;
+}
+
+/* ფუტერი */
+.main-footer {
+  width: 100%;
+  background-color: #101010;
+  color: #ffffff;
+  padding: 0 2.4rem 4rem 2.4rem;
+  text-align: center;
+  position: relative;
+}
+
+.footer-line {
+  width: 10rem;
+  height: 0.4rem;
+  background-color: #d87d4a;
+  margin: 0 auto 5.2rem auto;
+}
+
+.footer-logo {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 4.8rem;
+}
+
+.footer-nav a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  margin-bottom: 3.2rem;
+}
+
+.footer-nav a.active {
+  color: #d87d4a;
+}
+
+.footer-text {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 2.5rem;
+  margin-bottom: 4.8rem;
+}
+
+.copyright {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 700;
+  margin-bottom: 4.8rem;
+}
+
+.social-icons a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1.2rem;
+  font-size: 1.4rem;
+}
