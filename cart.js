@@ -2,7 +2,7 @@ const currentProduct = {
   id: "xx99-mkii",
   name: "XX99 MK II",
   price: 2999,
-  img: "/assets/XX99 MARK 2.png",
+  img: "assets/XX99 MARK 2.png",
 };
 
 let cart = [];
