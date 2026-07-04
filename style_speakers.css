@@ -2,7 +2,6 @@ html {
   font-size: 10px;
 }
 
-/* ბაზისური პარამეტრები */
 * {
   margin: 0;
   padding: 0;
@@ -18,13 +17,11 @@ body {
   align-items: center;
 }
 
-/* ყველა ბმულისთვის underline-ის მოშორება */
 a {
   color: white;
   text-decoration: none;
 }
 
-/* ჰედერი */
 .main-header {
   width: 100%;
   background-color: #101010;
@@ -65,7 +62,6 @@ a {
   letter-spacing: 0.2rem;
 }
 
-/* პროდუქტების ქარდები */
 .products-container {
   width: 100%;
   padding: 6.4rem 2.4rem;
@@ -119,7 +115,6 @@ a {
   max-width: 50rem;
 }
 
-/* ნარინჯისფერი ღილაკი */
 .btn-orange {
   display: inline-block;
   background-color: #d87d4a;
@@ -135,7 +130,6 @@ a {
   background-color: #fbaf85;
 }
 
-/* კატეგორიების სექცია (Shop) */
 .categories-section {
   width: 100%;
   padding: 0 2.4rem 12rem 2.4rem;
@@ -177,7 +171,6 @@ a {
   margin-left: 0.8rem;
 }
 
-/* ბრენდის საინფორმაციო ბლოკი */
 .brand-info-section {
   padding: 0 2.4rem 12rem 2.4rem;
   text-align: center;
@@ -207,7 +200,6 @@ a {
   line-height: 2.5rem;
 }
 
-/* ფუტერი */
 .main-footer {
   width: 100%;
   background-color: #101010;
